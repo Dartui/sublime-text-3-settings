@@ -1,0 +1,20 @@
+// SublimeLinter Settings - User
+{
+    "linters": {
+        "phpcs": {
+            "disable": false,
+            "args": [
+                    "-n",
+                    "--exclude=PSR1.Classes.ClassDeclaration,Squiz.Commenting"
+                ],
+            "excludes": [
+                    "*.phtml",
+                    "*.twig",
+                    "*.blade.php"
+                ],
+            "standard": "PSR2"
+        }
+    },
+    "show_hover_line_report": false,
+    "show_panel_on_save": "window",
+}

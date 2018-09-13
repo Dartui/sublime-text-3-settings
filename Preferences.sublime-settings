@@ -1,0 +1,26 @@
+{
+	"detect_indentation": false,
+	"draw_white_space": "all",
+	"enable_tab_scrolling": false,
+	"fold_buttons": false,
+	"font_size": 10,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"line_padding_bottom": 3,
+	"line_padding_top": 3,
+	"remember_full_screen": true,
+	"show_encoding": true,
+	"tab_completion": false,
+	"theme": "Adaptive.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"word_wrap": false
+}
