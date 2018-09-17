@@ -1,8 +1,7 @@
 {
     "codeformatter_debug": false,
 
-    "codeformatter_php_options":
-    {
+    "codeformatter_php_options": {
         "syntaxes": "php", // Syntax names which must process PHP formatter
         "php_path": "", // Path for PHP executable, e.g. "/usr/lib/php" or "C:/Program Files/PHP/php.exe". If empty, uses command "php" from system environments
         "format_on_save": false, // Format on save. Either a boolean (true/false) or a string regexp tested on filename. Example : "^((?!.min.|vendor).)*$"
@@ -17,14 +16,36 @@
 
         // Enable specific transformations. Example: ["ConvertOpenTagWithEcho", "PrettyPrintDocBlocks"]
         // You can list all available transformations from command palette: CodeFormatter: Show PHP Transformations
-        "passes": [],
+        "passes": [
+            "AddMissingParentheses",
+            "AlignConstVisibilityEquals",
+            "AlignDoubleArrow",
+            "AlignDoubleSlashComments",
+            "AlignEquals",
+            "AlignGroupDoubleArrow",
+            "AutoSemicolon",
+            "IndentTernaryConditions",
+            "NewLineBeforeReturn",
+            "OrderAndRemoveUseClauses",
+            "ReindentAndAlignObjOps",
+            "ReindentSwitchBlocks",
+            "RemoveIncludeParentheses",
+            "RemoveUseLeadingSlash",
+            "ShortArray",
+            "SmartLnAfterCurlyOpen",
+            "SpaceBetweenMethods",
+            "StripNewlineAfterClassOpen",
+            "StripNewlineWithinClassBody",
+            "StripSpaceWithinControlStructures",
+            "TightConcat",
+            "TrimSpaceBeforeSemicolon",
+        ],
 
         // Disable specific transformations
         "excludes": []
     },
 
-    "codeformatter_js_options":
-    {
+    "codeformatter_js_options": {
         "syntaxes": "javascript,json", // Syntax names which must process JS formatter
         "format_on_save": false, // Format on save. Either a boolean (true/false) or a string regexp tested on filename. Example : "^((?!.min.|vendor).)*$"
         "indent_size": 4, // indentation size
@@ -51,8 +72,7 @@
         "operator_position": "before-newline" // Operator position: before-newline, after-newline, preserve-newline
     },
 
-    "codeformatter_css_options":
-    {
+    "codeformatter_css_options": {
         "syntaxes": "css,less", // Syntax names which must process CSS formatter
         "format_on_save": false, // Format on save. Either a boolean (true/false) or a string regexp tested on filename. Example : "^((?!.min.|vendor).)*$"
         "indent_size": 4, // Indentation size
@@ -65,8 +85,7 @@
         "eol": "\n" // EOL symbol
     },
 
-    "codeformatter_scss_options":
-    {
+    "codeformatter_scss_options": {
         "syntaxes": "scss,sass", // Indentation size
         "format_on_save": false, // Format on save. Either a boolean (true/false) or a string regexp tested on filename. Example : "^((?!.min.|vendor).)*$"
         "indent_size": 4, // Indentation size
@@ -79,8 +98,7 @@
         "eol": "\n" // EOL symbol
     },
 
-    "codeformatter_html_options":
-    {
+    "codeformatter_html_options": {
         "syntaxes": "html,blade,asp,xml", // Syntax names which must process HTML formatter
         "format_on_save": false, // Format on save. Either a boolean (true/false) or a string regexp tested on filename. Example : "^((?!.min.|vendor).)*$"
         "formatter_version": "bs4", // Which formatter to use. Current options are "bs4" and "regexp". If an error occurs while loading the bs4 formatter, the regexp formatter will automatically be used
@@ -97,8 +115,7 @@
         "custom_singletons": "" // Custom singleton tags for various template languages outside of the HTML5 spec
     },
 
-    "codeformatter_python_options":
-    {
+    "codeformatter_python_options": {
         "syntaxes": "python", // Syntax names which must process Python formatter
         "format_on_save": false, // Format on save. Either a boolean (true/false) or a string regexp tested on filename. Example : "^((?!.min.|vendor).)*$"
         "indent_size": 1, // indentation size
@@ -157,8 +174,7 @@
         "java_style_list_dedent": false
     },
 
-    "codeformatter_vbscript_options":
-    {
+    "codeformatter_vbscript_options": {
         "syntaxes": "vbscript", // Syntax names which must process VBScript formatter
         "format_on_save": false, // Format on save. Either a boolean (true/false) or a string regexp tested on filename. Example : "^((?!.min.|vendor).)*$"
         "indent_size": 1, // indentation size
@@ -171,8 +187,7 @@
         "closing_tags": "(End Function|End Sub|End If|Next|Loop|End Select)$" // List of keywords which close an open block
     },
 
-    "codeformatter_coldfusion_options":
-    {
+    "codeformatter_coldfusion_options": {
         "syntaxes": "coldfusion,cfm,cfml", // Syntax names which must process Coldfusion Markup Language formatter
         "format_on_save": false, // Format on save. Either a boolean (true/false) or a string regexp tested on filename. Example : "^((?!.min.|vendor).)*$"
         "indent_size": 2, // indentation size
