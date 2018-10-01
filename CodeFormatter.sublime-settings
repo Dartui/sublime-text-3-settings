@@ -30,6 +30,7 @@
             "ReindentAndAlignObjOps",
             "ReindentSwitchBlocks",
             "RemoveIncludeParentheses",
+            "RemoveSemicolonAfterCurly",
             "RemoveUseLeadingSlash",
             "ShortArray",
             "SmartLnAfterCurlyOpen",
@@ -37,7 +38,6 @@
             "StripNewlineAfterClassOpen",
             "StripNewlineWithinClassBody",
             "StripSpaceWithinControlStructures",
-            "TightConcat",
             "TrimSpaceBeforeSemicolon",
         ],
 
