@@ -27,7 +27,6 @@
             "IndentTernaryConditions",
             "NewLineBeforeReturn",
             "OrderAndRemoveUseClauses",
-            "ReindentAndAlignObjOps",
             "ReindentSwitchBlocks",
             "RemoveIncludeParentheses",
             "RemoveSemicolonAfterCurly",
