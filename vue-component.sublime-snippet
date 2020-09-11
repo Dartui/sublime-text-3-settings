@@ -4,28 +4,33 @@
     $0
 </template>
 <script>
-export default {${1:
+export default \{
     components: \{
-        $7
-    \},}${2:
+        
+    \},
+
     props: \{
-        $8
-    \},}${3:
+        
+    \},
+
     data: function() \{
         return \{
-            $9
+            
         \}
-    \},}${4:
-    mounted: function() \{
-        $10
-    \},}${5:
+    \},
+
     computed: \{
-        $11
-    \},}${6:
+        
+    \},
+
+    mounted: function() \{
+        
+    \},
+
     methods: \{
-        $12
-    \},}
-}
+        
+    \},
+\}
 </script>
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

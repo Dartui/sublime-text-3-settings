@@ -1,3 +1,5 @@
 [
-    { "keys": ["ctrl+shift+r"], "command": "reveal_in_side_bar"}
+    { "keys": ["shift+delete"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+    { "keys": ["ctrl+shift+r"], "command": "reveal_in_side_bar"},
+    { "keys": ["ctrl+alt+f"], "command": "web_format"},
 ]

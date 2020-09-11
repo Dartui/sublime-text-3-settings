@@ -6,19 +6,21 @@
 	"installed_packages":
 	[
 		"Blade Snippets",
-		"CodeFormatter",
 		"DocBlockr",
 		"GitGutter",
 		"Laravel Blade Highlighter",
 		"Laravel Blade Spacer",
 		"Package Control",
+		"Package Reloader",
 		"Sass",
 		"SideBarEnhancements",
 		"SublimeCodeIntel",
 		"SublimeLinter",
+		"SublimeLinter-contrib-phpstan",
 		"SublimeLinter-json",
 		"SublimeLinter-php",
 		"SublimeLinter-phpcs",
-		"Vue Syntax Highlight"
+		"Vue Syntax Highlight",
+		"WordPress Snippets"
 	]
 }

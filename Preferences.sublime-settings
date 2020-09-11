@@ -2,7 +2,8 @@
 	"detect_indentation": false,
 	"draw_white_space": "all",
 	"fold_buttons": false,
-	"font_size": 10,
+	"font_face": "JetBrains Mono",
+	"font_size": 11,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -20,9 +21,14 @@
 	"jsdocs_return_description": false,
 	"jsdocs_short_primitives": true,
 	"jsdocs_spacer_between_sections": "after_description",
-	"line_padding_bottom": 3,
-	"line_padding_top": 3,
+	"line_padding_bottom": 4,
+	"line_padding_top": 4,
 	"remember_full_screen": true,
+	"rulers":
+	[
+		80,
+		120
+	],
 	"show_encoding": true,
 	"tab_completion": false,
 	"theme": "Adaptive.sublime-theme",

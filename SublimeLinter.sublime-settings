@@ -1,18 +1,25 @@
 // SublimeLinter Settings - User
 {
     "linters": {
-        "phpcs": {
+        "php": {
             "disable": false,
+        },
+        "phpcs": {
+            "disable": true,
             "args": [
                     "-n",
-                    "--exclude=PSR1.Classes.ClassDeclaration,Squiz.Commenting"
+                    "--exclude=PSR1.Classes.ClassDeclaration"
                 ],
             "excludes": [
                     "*.phtml",
                     "*.twig",
                     "*.blade.php"
                 ],
-            "standard": "PSR2"
+            "standard": "PSR12"
+        },
+        "phpstan": {
+            "disable": true,
+            "executable": "${folder}/vendor/bin/phpstan",
         }
     },
     "show_hover_line_report": false,
