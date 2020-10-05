@@ -5,6 +5,7 @@
 	],
 	"installed_packages":
 	[
+		"AutomaticPackageReloader",
 		"Blade Snippets",
 		"DocBlockr",
 		"GitGutter",

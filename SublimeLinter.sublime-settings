@@ -18,7 +18,7 @@
             "standard": "PSR12"
         },
         "phpstan": {
-            "disable": true,
+            "disable": false,
             "executable": "${folder}/vendor/bin/phpstan",
         }
     },
