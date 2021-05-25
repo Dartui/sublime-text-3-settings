@@ -5,7 +5,6 @@
 	],
 	"installed_packages":
 	[
-		"AutomaticPackageReloader",
 		"Blade Snippets",
 		"DocBlockr",
 		"GitGutter",
@@ -23,5 +22,5 @@
 		"SublimeLinter-phpcs",
 		"Vue Syntax Highlight",
 		"WordPress Snippets"
-	]
+	],
 }
