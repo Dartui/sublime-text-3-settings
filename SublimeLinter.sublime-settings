@@ -19,6 +19,9 @@
         },
         "phpstan": {
             "disable": false,
+            "args": [
+                "--configuration=${folder}/phpstan.neon"
+            ],
             "executable": "${folder}/vendor/bin/phpstan",
         }
     },
