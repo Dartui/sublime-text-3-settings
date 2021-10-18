@@ -381,9 +381,9 @@
     // Additional situations to trigger auto complete
     "auto_complete_triggers":
     [
-        {"selector": "text.html, text.xml", "characters": "<"},
-        {"selector": "text.blade, text.html.blade", "characters": "@"},
-        {"selector": "punctuation.accessor", "rhs_empty": true},
+        {"selector": "text.html, text.xml", "characters": "<",},
+        {"selector": "text.blade, text.html.blade", "characters": "@",},
+        {"selector": "punctuation.accessor", "rhs_empty": true,},
     ],
 
     // By default, auto complete will commit the current completion on enter.

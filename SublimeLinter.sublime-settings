@@ -1,21 +1,17 @@
 // SublimeLinter Settings - User
 {
+    "debug": true,
+
     "linters": {
         "php": {
             "disable": false,
         },
-        "phpcs": {
-            "disable": true,
+        "phpcsfixer": {
+            "disable": false,
             "args": [
-                    "-n",
-                    "--exclude=PSR1.Classes.ClassDeclaration"
-                ],
-            "excludes": [
-                    "*.phtml",
-                    "*.twig",
-                    "*.blade.php"
-                ],
-            "standard": "PSR12"
+                "--allow-risky=yes",
+            ],
+            "executable": "${folder}/vendor/bin/php-cs-fixer"
         },
         "phpstan": {
             "disable": false,
@@ -23,8 +19,12 @@
                 "--configuration=${folder}/phpstan.neon"
             ],
             "executable": "${folder}/vendor/bin/phpstan",
+        },
+        "eslint": {
+            "disable": false,
         }
     },
+
     "show_hover_line_report": false,
     "show_panel_on_save": "window",
 }
