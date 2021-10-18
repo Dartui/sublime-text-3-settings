@@ -14,13 +14,13 @@
 		"Package Reloader",
 		"Sass",
 		"SideBarEnhancements",
-		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeLinter-contrib-phpstan",
+		"SublimeLinter-eslint",
 		"SublimeLinter-json",
 		"SublimeLinter-php",
 		"SublimeLinter-phpcs",
 		"Vue Syntax Highlight",
-		"WordPress Snippets"
+		"WordPress Snippets",
 	],
 }

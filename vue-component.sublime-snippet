@@ -30,8 +30,9 @@ export default \{
     methods: \{
         
     \},
-\}
+\};
 </script>
+
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>vue-component</tabTrigger>
