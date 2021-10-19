@@ -14,13 +14,19 @@
 		"Package Reloader",
 		"Sass",
 		"SideBarEnhancements",
+		"sublime-webformatter",
 		"SublimeLinter",
+		"SublimeLinter-contrib-php-cs-fixer",
 		"SublimeLinter-contrib-phpstan",
 		"SublimeLinter-eslint",
 		"SublimeLinter-json",
 		"SublimeLinter-php",
-		"SublimeLinter-phpcs",
 		"Vue Syntax Highlight",
 		"WordPress Snippets",
+	],
+	"repositories":
+	[
+		"https://github.com/Dartui/sublime-webformatter",
+		"https://github.com/Dartui/SublimeLinter-contrib-php-cs-fixer",
 	],
 }
